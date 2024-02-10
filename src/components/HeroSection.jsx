@@ -68,7 +68,7 @@ function HeroSection() {
           </div>
       </div>
       <div className=' p-8 bg-transparent text-left w-11/12'>
-        <p className='w-full text-left text-white text-xl font-medium leading-[50px]' id='about'>
+        <p className='w-full text-left text-white text-xl font-light leading-[40px]' id='about'>
 As a front-end developer👨‍💻, my journey is fueled by an insatiable thirst for 📚knowledge📚 and an unwavering passion for growth. I welcome challenges with open arms, seeing them as opportunities to push myself and expand my skills. 🧭My compass is guided by curiosity, leading me through the constantly evolving world of web technologies🌐🖥️🖱️.
 
 But development is not a solitary pursuit; teamwork🤝 is essential. I am skilled at collaborating with designers👨‍🎨, back-end engineers👨‍💻, and stakeholders to bring ideas💡 and users together through code. And when needed, I can take on leadership🌟 roles to drive projects towards success🎯.
