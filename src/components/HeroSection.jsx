@@ -52,7 +52,7 @@ function HeroSection() {
   
   return (
     <section className='w-full flex flex-col items-center justify-center bg-transparent text-white text-center relative overflow-hidden'>
-      <div className='absolute top-48 left-0  galaxy1'>
+      <div className='absolute top-10 left-0  galaxy1'>
         <img alt='space' width={500} height={300} src={spaceShape} className='relative -left-28 top-0 -rotate-[20deg]'/>
         <div className={styles.spaceShapesm+' relative left-[20rem] -top-36 shadow-[0_0_0_4px_black]  bg-white  w-36 h-28'}></div>
         <img src={planet1} alt='planet' width={100} height={100} className='planet1 w-32 h-32 relative left-48 -top-[35rem] '/>
@@ -61,11 +61,11 @@ function HeroSection() {
           <p className='text-3xl font-bold w-full'>Hi, I&#39;m</p>
           <h1 className={styles.textOutline+' text-9xl w-full mt-12 mb-2 text-transparent font-londrina '}>ABDELGHANI BAHRI </h1>
           <h2 className='font-bold w-full text-5xl text-white '>Front-end Developer</h2>
-          <div className='flex flex-row w-full justify-center  items-center gap-6 mt-12'>
+          {/* <div className='flex flex-row w-full justify-center  items-center gap-6 mt-12'>
             <a href="/" onClick={CopyEmail} className='w-12 h-12 bg-white rounded-sm shadow-[0_0_4px_2px_rgba(255,255,255,40%)] p-2'><img className='w-full h-full' src={email} width={10} height={10} alt='as' /></a>
             <a href="https://github.com/GhaniBahri" className='w-12 h-12 bg-white rounded-sm shadow-[0_0_4px_2px_rgba(255,255,255,40%)] p-2'><img className='w-full h-full' src={github} width={10} height={10} alt='as' /></a>
             <a href="https://www.aedin.com/in/abdelghani-bahri-0a190a159/" className='w-12 h-12 bg-white rounded-sm shadow-[0_0_4px_2px_rgba(255,255,255,40%)] p-2'><img className='w-full h-full' src={aedin} width={10} height={10} alt='as' /></a>
-          </div>
+          </div> */}
       </div>
       <div className=' p-8 bg-transparent text-left w-11/12 mt-20'>
         <p className='w-full text-left text-white text-xl font-light leading-[40px]' id='about'>
