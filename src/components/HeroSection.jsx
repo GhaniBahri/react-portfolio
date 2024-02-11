@@ -67,7 +67,7 @@ function HeroSection() {
             <a href="https://www.aedin.com/in/abdelghani-bahri-0a190a159/" className='w-12 h-12 bg-white rounded-sm shadow-[0_0_4px_2px_rgba(255,255,255,40%)] p-2'><img className='w-full h-full' src={aedin} width={10} height={10} alt='as' /></a>
           </div>
       </div>
-      <div className=' p-8 bg-transparent text-left w-11/12'>
+      <div className=' p-8 bg-transparent text-left w-11/12 mt-20'>
         <p className='w-full text-left text-white text-xl font-light leading-[40px]' id='about'>
 As a front-end developer👨‍💻, my journey is fueled by an insatiable thirst for 📚knowledge📚 and an unwavering passion for growth. I welcome challenges with open arms, seeing them as opportunities to push myself and expand my skills. 🧭My compass is guided by curiosity, leading me through the constantly evolving world of web technologies🌐🖥️🖱️.
 

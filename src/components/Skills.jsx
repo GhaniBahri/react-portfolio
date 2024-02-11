@@ -79,20 +79,59 @@ function Skills() {
             before:bg-white before:left-0 before:top-0">
                 Experienced with:</h3>
             {/* <div className='grid grid-cols-4 grid-rows-3 w-full gap-20 place-items-center'> */}
-            <Marquee className='  ' speed={20} gradientColor='black' gradient={true} gradientWidth={200} autoFill>
-                <img className='w-20 h-20 mx-8 my-8' width={10} height={10} alt='skill' src={d3}/>
-                <img className='w-20 h-20 mx-8 my-8' width={10} height={10} alt='skill' src={tailwind}/>
-                <img className='w-20 h-20 mx-8 my-8' width={10} height={10} alt='skill' src={sass}/>
-                <img className='w-20 h-20 mx-8 my-8' width={10} height={10} alt='skill' src={github}/>
-                <img className='w-20 h-20 mx-8 my-8' width={10} height={10} alt='skill' src={git}/>
-                <img className='w-20 h-20 mx-8 my-8' width={10} height={10} alt='skill' src={firebase}/>
-                <img className='w-20 h-20 mx-8 my-8' width={10} height={10} alt='skill' src={figma}/>
-                <img className='w-20 h-20 mx-8 my-8' width={10} height={10} alt='skill' src={html}/>
-                <img className='w-20 h-20 mx-8 my-8' width={10} height={10} alt='skill' src={css}/>
-                <img className='w-20 h-20 mx-8 my-8' width={10} height={10} alt='skill' src={javascript}/>
-                <img className='w-20 h-20 mx-8 my-8' width={10} height={10} alt='skill' src={reactjs}/>
-                <img className='w-20 h-20 mx-8 my-8' width={10} height={10} alt='skill' src={vue}/>
-                <img className='w-20 h-20 mx-8 my-8' width={10} height={15} alt='skill' src={nextjs}/>
+            <Marquee className='  ' speed={80} gradientColor='black' gradient={true} gradientWidth={200} autoFill>
+                <div className='flex flex-col items-center justify-between mx-8 my-8 w-32 h-32'>
+                    <img className='w-20 h-20' width={10} height={10} alt='skill' src={d3}/>
+                    <h1 className='text-white font-semibold text-xl w-full text-center'>D3.js</h1>
+                </div>
+                <div className='flex flex-col items-center justify-between mx-8 my-8 w-32 h-32'>
+                <img className='w-20 h-20' width={10} height={10} alt='skill' src={tailwind}/>
+                    <h1 className='text-white font-semibold text-xl w-full text-center'> TailwindCSS</h1>
+                </div>
+                <div className='flex flex-col items-center justify-between mx-8 my-8 w-32 h-32'>
+                <img className='w-20 h-20' width={10} height={10} alt='skill' src={sass}/>
+                    <h1 className='text-white font-semibold text-xl w-full text-center'>SASS/LESS</h1>
+                </div>
+                <div className='flex flex-col items-center justify-between mx-8 my-8 w-32 h-32'>
+                <img className='w-20 h-20' width={10} height={10} alt='skill' src={github}/>
+                    <h1 className='text-white font-semibold text-xl w-full text-center'>Github</h1>
+                </div>
+                <div className='flex flex-col items-center justify-between mx-8 my-8 w-32 h-32'>
+                <img className='w-20 h-20' width={10} height={10} alt='skill' src={git}/>
+                    <h1 className='text-white font-semibold text-xl w-full text-center'>Git</h1>
+                </div>
+                <div className='flex flex-col items-center justify-between mx-8 my-8 w-32 h-32'>
+                <img className='w-20 h-20' width={10} height={10} alt='skill' src={firebase}/>
+                    <h1 className='text-white font-semibold text-xl w-full text-center'>Firebase</h1>
+                </div>
+                <div className='flex flex-col items-center justify-between mx-8 my-8 w-32 h-32'>
+                <img className='w-20 h-20' width={10} height={10} alt='skill' src={figma}/>
+                    <h1 className='text-white font-semibold text-xl w-full text-center'>Figma</h1>
+                </div>
+                <div className='flex flex-col items-center justify-between mx-8 my-8 w-32 h-32'>
+                <img className='w-20 h-20' width={10} height={10} alt='skill' src={html}/>
+                    <h1 className='text-white font-semibold text-xl w-full text-center'>HTML</h1>
+                </div>
+                <div className='flex flex-col items-center justify-between mx-8 my-8 w-32 h-32'>
+                <img className='w-20 h-20' width={10} height={10} alt='skill' src={css}/>
+                    <h1 className='text-white font-semibold text-xl w-full text-center'>CSS</h1>
+                </div>
+                <div className='flex flex-col items-center justify-between mx-8 my-8 w-32 h-32'>
+                <img className='w-20 h-20' width={10} height={10} alt='skill' src={javascript}/>
+                    <h1 className='text-white font-semibold text-xl w-full text-center'>Javascript</h1>
+                </div>
+                <div className='flex flex-col items-center justify-between mx-8 my-8 w-32 h-32'>
+                <img className='w-20 h-20' width={10} height={10} alt='skill' src={reactjs}/>
+                    <h1 className='text-white font-semibold text-xl w-full text-center'>React</h1>
+                </div>
+                <div className='flex flex-col items-center justify-between mx-8 my-8 w-32 h-32'>
+                <img className='w-20 h-20' width={10} height={10} alt='skill' src={vue}/>
+                    <h1 className='text-white font-semibold text-xl w-full text-center'>Vue</h1>
+                </div>
+                <div className='flex flex-col items-center justify-between mx-8 my-8 w-32 h-32'>
+                <img className='w-20 h-20' width={10} height={15} alt='skill' src={nextjs}/>
+                    <h1 className='text-white font-semibold text-xl w-full text-center'>Nextjs</h1>
+                </div>
             </Marquee>
             {/* </div> */}
             <h3 className="text-xl text-white text-left font-medium w-full pl-4 pb-4 mt-16 mb-6 relative after:content-[''] after:absolute after:w-full after:h-px 
