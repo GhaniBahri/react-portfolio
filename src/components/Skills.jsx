@@ -68,7 +68,7 @@ function Skills() {
       },[])
   return (
     <section className='w-full flex flex-col items-center mt-8 relative overflow-hidden' id='skills'>
-        <div className='absolute top-0 right-0 galaxy2'>
+        <div className='absolute top-0 right-0 galaxy2 hidden md:block'>
         <img alt='space' width={400} height={300} src={spaceShape2} className='relative -right-20 top-0 ' />
         <img alt='astronaut' width={100} height={200} src={astronaut} className='astronaut relative -left-4 -top-80 w-64 h-96' />
       </div>
