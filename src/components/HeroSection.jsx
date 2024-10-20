@@ -51,7 +51,7 @@ function HeroSection() {
   },[])
   
   return (
-    <section className='w-full flex flex-col items-center justify-center bg-transparent text-white text-center relative overflow-hidden'>
+    <section className='w-full flex flex-col items-center justify-center bg-transparent text-white text-center relative overflow-hidden z-0'>
       
       <div className='w-full md:selection:w-1/2 mx-auto flex flex-col items-center justify-start gap-2 px-8 mt-24 z-20'>
           <p className='text-xl md:text-3xl font-bold w-full'>Hi, I&#39;m</p>
