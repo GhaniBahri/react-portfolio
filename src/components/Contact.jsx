@@ -51,7 +51,7 @@ function Contact() {
             </a>
                 <p className='contact text-lg font-bold text-white bg-black w-fit group-hover:px-4 right-11 overflow-hidden'>abdelghani.bahri0@gmail.com</p>
             </div>
-            <a href="/#" title='Download CV' onClick={downloadCV} className='w-12 h-12 border-2 border-black bg-white rounded-md shadow-[0_0_4px_2px_rgba(0,0,0,40%)] p-2 ml-auto'>
+            <a href="/" title='Download CV' onClick={downloadCV} className='w-12 h-12 border-2 border-black bg-white rounded-md shadow-[0_0_4px_2px_rgba(0,0,0,40%)] p-2 ml-auto'>
                 <img className='w-full h-full' src={cv} width={10} height={10} alt='as' />
             </a>
             <a href="https://github.com/GhaniBahri" title='visit repo' className='w-12 h-12 border-2 border-black bg-white rounded-md shadow-[0_0_4px_2px_rgba(0,0,0,40%)] p-2 ml-auto'>
