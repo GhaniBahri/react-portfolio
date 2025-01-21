@@ -132,18 +132,25 @@ function Skills() {
                 <img className='w-20 h-20' width={10} height={15} alt='skill' src={nextjs}/>
                     <h1 className='text-white font-semibold text-xl w-full text-center'>Nextjs</h1>
                 </div>
+                <div className='flex flex-col items-center justify-between mx-8 my-8 w-32 h-32'>
+                <img className='w-20 h-20' width={10} height={15} alt='skill' src={typescript}/>
+                    <h1 className='text-white font-semibold text-xl w-full text-center'>Typescript</h1>
+                </div>
+                <div className='flex flex-col items-center justify-between mx-8 my-8 w-32 h-32'>
+                <img className='w-20 h-20' width={10} height={15} alt='skill' src={nodejs}/>
+                    <h1 className='text-white font-semibold text-xl w-full text-center'>Nodejs</h1>
+                </div>
             </Marquee>
             {/* </div> */}
-            <h3 className="text-xl text-white text-left font-medium w-full pl-4 pb-4 mt-16 mb-6 relative after:content-[''] after:absolute after:w-full after:h-px 
+            {/* <h3 className="text-xl text-white text-left font-medium w-full pl-4 pb-4 mt-16 mb-6 relative after:content-[''] after:absolute after:w-full after:h-px 
             after:bg-white after:left-0 after:bottom-0 before:content-[''] before:absolute before:w-[1.5px] before:h-full 
             before:bg-white before:left-0 before:top-0">
                 Also learning:</h3>
-            {/* <div className='grid grid-cols-4 grid-rows-1 w-full gap-20 place-items-center'> */}
             <Marquee className='  w-full flex justify-between' speed={30} gradientColor='black' gradient={true} gradientWidth={200} direction='right'>
                 <img className='w-20 h-20 mx-36 my-8' width={10} height={10} alt='skill' src={typescript}/>
                 <img className='w-20 h-20 mx-36 my-8' width={10} height={10} alt='skill' src={nodejs}/>
                 <img className='w-20 h-20 mx-36 my-8' width={10} height={10} alt='skill' src={docker}/>
-            </Marquee>
+            </Marquee> */}
             {/* </div> */}
         </div>
     </section>
